@@ -1,0 +1,232 @@
+body,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td.img,
+div,
+dl,
+dt,
+dd,
+input {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: 100% !important;
+  text-size-adjust: 100%;
+  font-family: Helvetica;
+  background: #fff;
+  -webkit-overflow-scrolling: touch;
+}
+ul,
+li {
+  list-style: none;
+}
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+  display: block;
+}
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.wrap {
+  position: relative;
+  width: 15rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.wrap .logo {
+  width: 6rem;
+  height: auto;
+  margin-bottom: 4rem;
+}
+.wrap .login-mod {
+  padding: 0 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.wrap .login-mod .form-group {
+  width: 100%;
+  margin-bottom: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .login-mod .form-group .inp-wrap {
+  flex: 1;
+  height: 1.76rem;
+  line-height: 1.76rem;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 0 0.48rem;
+  border-radius: 0.32rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.wrap .login-mod .form-group .inp-wrap .icon-user {
+  width: 0.72rem;
+  height: 0.72rem;
+  background-image: url(../images/icon_user.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 100%;
+  margin-top: 0.46rem;
+  margin-right: 0.48rem;
+}
+.wrap .login-mod .form-group .inp-wrap .icon-pwd {
+  display: block;
+  width: 0.56rem;
+  height: 0.72rem;
+  background-image: url(../images/icon_password.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 100%;
+  margin-top: 0.52rem;
+  margin-right: 0.56rem;
+}
+.wrap .login-mod .form-group .inp-wrap .inp-txt {
+  display: block;
+  width: 100%;
+  flex: 1;
+  font-size: 0.64rem;
+  color: #fff;
+  background: none;
+  border: none;
+}
+.wrap .login-mod .form-group .inp-wrap .inp-txt::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 0.64rem;
+}
+.wrap .login-mod .form-group .get-code {
+  display: block;
+  width: 4rem;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.75);
+  height: 1.76rem;
+  line-height: 1.76rem;
+  text-align: center;
+  font-size: 0.56rem;
+  color: #b40000;
+  border-radius: 0.32rem;
+  margin-left: 0.4rem;
+  border: none;
+}
+.wrap .login-mod .submit-btn {
+  display: block;
+  width: 100%;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  text-align: center;
+  background: #fff;
+  font-size: 0.72rem;
+  color: #B40000;
+  border-radius: 0.36rem;
+  border: none;
+}
+.vote-page {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.vote-page .header {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  color: #B40000;
+  padding: 0.6rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+.vote-page section {
+  display: flex;
+  width: 100%;
+  padding: 0 50px;
+  flex: 1;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.vote-page section .vote-img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.vote-page section .vote-desc {
+  line-height: 1.12rem;
+  font-size: 0.64rem;
+  text-align: justify;
+}
+.vote-page footer {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.vote-page footer button {
+  border: none;
+  flex: 1;
+  height: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.vote-page footer button.adopt-btn {
+  background: #22ac38;
+  color: #fff;
+}
+.vote-page footer button.abandon-btn {
+  background: grey;
+  color: #fff;
+}
+.vote-page footer button.fail-btn {
+  background: #b40000;
+  color: #fff;
+}
+.vote-page footer button.active {
+  background: #ccc;
+  color: #333;
+}
